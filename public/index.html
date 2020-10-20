@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAISSA</title>
+    <link rel="shortcut icon" href="Imagen/logokaisa.png">
+    <link rel="stylesheet" href="CSS/estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <df-messenger
+        intent="WELCOME"
+        chat-title="Chat Bot Caissa"
+        chat-icon="Imagen/logoKaisa.png"
+        agent-id="742ea29a-10ca-4c1e-88d9-f5be7189499e"
+        language-code="es">
+    </df-messenger>
+    <header class="header">
+        <nav class="navbar">
+            <a href="#">Inicio</a>
+            <a href="#">Quienes Somos</a>
+            <a href="#">Modalidades</a>
+            <a href="#">Nuestros Clientes</a>
+            <a href="#">Contacto</a>
+        </nav>
+        <section class="textos-header">
+            <h1>Aprende estrategias de Ajederez</h1>
+            <h2>La mejor opción con Caissa</h2>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;" >
+            <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C307.28,231.41 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: rgb(255, 255, 255);">
+                </path>
+            </svg>
+        </div>
+    </header>
+    
+    <main>
+        
+        <section class="contenedor sobre-nosotros">
+            <h2 class="titulo">Quienes Somos</h2>
+           <div class="contenedor-sobre-nosotros">
+               <img src="Imagen/JUgando.jpeg" alt="" class="imagen-about-us">
+               <div class="contenido-textos">
+                    <h3><span>1.</span>Que es "CAISSA"</h3>
+                    <p>“CAISSA” es un programa de intervención psicosocial fundamentado en el aprendizaje mediado, y como herramientas de difusión hace uso del ajedrez junto con la tendencia del aprendizaje mixto (blended learning) combinando de esta manera  el ajedrez, la psicología y la ingeniería de sistemas para mostrar cómo la enseñanza del “deporte ciencia”  puede servir como un transformador social y terapéutico.</p>
+                    <h3><span>2.</span>Cual es el objetivo</h3>
+                    <p>Poder observar y evaluar  conductas sociales y cognitiva  tales como  la memoria, atención,   la tolerancia a la frustración ( como es cuando gana o pierde ),  la toma de decisiones la  representación y  el reconocimiento del otro  la motivación entre otro muchos aspectos  psicológicos que son de interés y que no siempre salen a flote mediante una entrevista  o en una prueba psicométrica ya que  como lo expresa chacón (2012) el potencial que tiene el ajedrez permite  darle nacimiento a procesos de intervención psicosocial .
+                    </p>
+                    <h3><span>3.</span>¿Por que el ajederez?</h3>
+                    <p>El ajedrez en estas últimas décadas ha tenido un fuerte impacto y acogida en el campo de lo psicológico, pedagógico y social desde su reconocimiento por  la UNESCO en 1995, como herramienta pedagógica, esta actividad  ha  llegado ha convierte en  algo más que un  deporte de competencia  o una actividad de ocio “hobby” tanto así que  en la actualidad hay    comunidades y  federaciones de ajedrez cuyos objetivos trascienden la competencia,  siendo de esta manera usado en  el plano de lo terapéutico y pedagógico abriéndose espacios  en la educación especializada, en los procesos de rehabilitación en drogodependencia, proyecto de vida, trabajo ocupacional, cárceles, geriátricos hospitales entre un sinfín de escenarios   que  abarcan una población tan dinámica y diversa que hace del ajedrez una práctica incluyente e innovadora. 
+                    </p>
+               </div>
+           </div> 
+        </section>
+        <section class="Modalidades">
+            <div class="contenedor">
+                <h2 class="titulo">MODALIDADES</h2>
+                <div class="galeria-port">
+                    <div class="imagen-port">
+                        <img src="Imagen/modalidad2.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="Imagen/iconlogocaissa.png" alt="">
+                            <p>Modalidad 1</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="Imagen/modalidad2.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="Imagen/iconlogocaissa.png" alt="">
+                            <p>Modalidad 2</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="Imagen/modalidad3.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="Imagen/iconlogocaissa.png" alt="">
+                            <p>Modalidad 3</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="Imagen/modalidad4.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="Imagen/iconlogocaissa.png" alt="">
+                            <p>Modalidad 4</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="clientes contedor">
+            <h2 class="titulo">Que dicen nuestro clientes</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="Imagen/logokaisa.png" alt="">
+                    <div class="contenido-texto-card">
+                        <p>Esta es mi opinion sobre la plataforma Caissa.app</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="Imagen/logokaisa.png" alt="">
+                    <div class="contenido-texto-card">
+                        <p>Esta es mi  segunda opinion sobre la plataforma Caissa.app</p>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="contenedor-footer">
+            <div class="content-foo">
+                <h4>Phone</h4>
+                <p>8284756</p>
+            </div>
+            <div class="content-foo">
+                <h4>Email</h4>
+                <p>caissa@gmail.com</p>
+            </div>
+            <div class="content-foo">
+                <h4>Location</h4>
+                <p>Calle 14 con Avenida 15</p>
+            </div>
+        </div>
+        <h2 class="titulo-final">&copy; Caissa | Equipo Ucundi</h2>
+    </footer>
+    
+</body>
+</html>
